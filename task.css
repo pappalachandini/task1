@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://i1.himalayas.life/c/u/f67894297b6134a6b759b3a9ec15b6cb/2020/08/30050033/Hatha-Yoga-Practice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+   
+ 
+
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-left:50px;
+    position: relative;
+    list-style: none;
+   
+}
+.header ul li a{
+  color: rgb(190, 10, 190);
+  font-size: 27px;
+  font-family: Georgia;
+  font-style:unset;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header ul li a:hover{
+   text-decoration: underline;
+
+}
+
+.title{
+     display: inline-block;
+    font-size: 20px;
+    width: 20%;
+    height: 50px;
+   
+}
+.title p{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family:serif;
+    font-style: oblique;
+    color: rgb(187, 34, 187);
+}
+.bt-ln{
+    width: 90px;
+    height: 40px;
+    
+}
+.bt-ln button{
+    width:90px;
+    height:40px;
+    font-size: 25px;
+     border-radius: 15px;
+     background-color: rgb(197, 24, 197);
+    color:white;
+    transition: 0.5s;
+    border: none;
+    
+
+}
+.bt-ln button:hover{
+    box-shadow: 5px 5px 10px rgb(237, 140, 237) ;
+    background-color:white ;
+    color: rgb(174, 9, 174);
+    transform: translateX(-10px);
+    cursor: pointer;
+
+}
+.bt-ln button:active{
+    background-color:rgb(197, 24, 197) ;
+    color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+    height: 88%;
+
+
+}
+col{
+    flex-basis: 50%;
+   
+}
+.col p{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family:serif;
+    font-style: oblique;
+    color: rgb(236, 117, 236);
+}
+.col h1{
+    font-family:serif;
+    font-style:italic;
+    margin-left: 20px;
+    font-size: 60px;
+    color: rgb(247, 82, 247);
+
+}
+.sn{
+  
+    width:130px;
+    height: 40px;
+}
+.sn button{
+    width:130px;
+    height: 50px; 
+    font-size: 30px;
+    font-family:serif;
+    font-style: italic;
+    border-radius:10px 25px ;
+    border:none;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(214, 35, 214);
+    background-color: rgb(242, 215, 242);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sn button:hover{
+     background-color: rgb(202, 14, 202);
+     color: white;
+     box-shadow: 3px 4px 10px rgb(178, 175, 175);
+     transform: translateX(20px);
+}
+.next-f{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais);
+    background-position: center;
+    background-size: cover;
+    
+}
+.title-two{
+    width: 25%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-left:580px;
+
+}
+.title-two p{
+    font-size:80px;
+    font-family: serif;
+    font-style: oblique;
+    padding-left: 30px;
+    color: white;
+}
+
+.im-o img{
+    border-radius: 70%;
+    width:240px;
+    height:200px;
+    margin-left: 30px;
+    margin-top: 50px;
+    transition: 0.5s;
+    justify-content: space-between;
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+.im-o{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex:1;
+    
+}
+.im-o p{
+   
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 33px;
+    font-family: serif;
+    font-style: oblique;
+  
+}
+.im-o img:hover{
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 8px rgb(163, 161, 161);
+}
+.im-s img{
+    border-radius: 70%;
+    width:240px;
+    height:200px;
+    margin-left: 30px;
+    margin-top: 50px;
+    transition: 0.5s;
+    justify-content: space-between;
+    margin-right: 50px;  
+    cursor: pointer;
+    
+}
+.im-s{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex:1;    
+}
+.im-s p{
+   
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 33px;
+    font-family: serif;
+    font-style: oblique;
+  
+}
+.im-s img:hover{
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 8px rgb(163, 161, 161);
+
+}
+.next-s{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(yoga.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.head-b{
+    width: 250px;
+    height:65px;
+    text-align: center;
+    margin-left: 600px;
+
+}
+.head-b p{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: white;
+  
+}
+.b-page{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex:1;
+
+}
+.bo{
+    width:280px;
+    height:500px;
+    margin-top: 40px;
+   margin-left: 10px;
+  
+}
+.bob{
+    cursor: pointer;
+    width:280px;
+    height:500px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: solid 2px;
+    backdrop-filter: blur(10px);
+    border-color:antiquewhite;
+    transition: 0.5s;
+}
+.bob img{
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    
+}
+
+.bob button{
+    width: 280px;
+    height: 500px;
+   
+
+}
+.bob h3{
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Gill Sans';
+    color: white;
+}
+.bob p{
+    font-size: 20px;
+    font-family:'Lucida Sans';
+    font-style:italic;
+    color: rgb(196, 192, 192);
+}
+.bob:hover{
+    transform:translateY(-10px) ;
+    box-shadow: 2px 2px 5px rgb(189, 182, 182);
+
+}
+.next-t{
+    width:100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://t3.ftcdn.net/jpg/04/43/07/72/360_F_443077254_d9jiqx2u2b1dkgZN1D0i7C8ZLvPALn1k.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cu {
+   
+    width: 100%;
+    height: 80px;
+}
+.cu h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+   font-size: 40px;
+   font-style: italic;
+   color: rgb(204, 18, 204);
+
+}
+.cp{
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    flex:1;
+    padding-left: 50px;
+   
+ 
+    
+}
+.co-p button {
+   font-size: 60px;
+   padding-top: 10px;
+   border-radius: 40px;
+   text-align:  center;
+   width: 80px;
+   transition: 0.5s;
+   border: none;
+   background-color: lightpink;
+
+}
+.co-p button:hover{
+    background-color: rgb(195, 10, 195);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-10px);
+
+}
+.co-p h4{
+    font-size: 30px;
+    font-style:oblique;
+    color: purple;
+
+}
+
+.co-p p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(177, 9, 177);
+}
